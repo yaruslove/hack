@@ -9,7 +9,9 @@ RUN pip3 install -r requirements.txt
 COPY . /app
 
 EXPOSE 8501
+EXPOSE 35800
+EXPOSE 36801
 
 ENTRYPOINT ["streamlit","run"]
 
-CMD ["streamlit-app.py"]
+CMD ["streamlit-app.py", "--server.port", "36800"]

@@ -1,0 +1,12 @@
+
+# command build dockerfile
+docker build -t streamlit_gun:yaroslav .
+
+# docker run
+# with gpu
+docker run -p 36800:36800 -p 36801:36801 --gpus all -it -v /home/hack/hack:/app_demo --name streamlit_gun_yaroslav aac8f705bd16
+
+# without gpu
+docker run -p 36800:36800 -p 36801:36801 -it -v /home/hack/hack:/app_demo --name streamlit_gun_yaroslav aac8f705bd16
+
+
