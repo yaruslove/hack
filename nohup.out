@@ -1,0 +1,1151 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://172.17.0.2:36800
+  External URL: http://178.170.192.10:36800
+
+
+image 1/1 /hack/app/1.jpg: 384x768 (no detections), 84.0ms
+Speed: 5.4ms preprocess, 84.0ms inference, 27.1ms postprocess per image at shape (1, 3, 384, 768)
+OpenCV: FFMPEG: tag 0x34363248/'H264' is not supported with codec id 27 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x31637661/'avc1'
+
+0: 448x768 (no detections), 78.3ms
+Speed: 2.0ms preprocess, 78.3ms inference, 0.7ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.9ms
+Speed: 2.0ms preprocess, 6.9ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 7.8ms
+Speed: 1.8ms preprocess, 7.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 2.0ms preprocess, 6.7ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 2.0ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 7.8ms
+Speed: 1.9ms preprocess, 7.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 7.4ms
+Speed: 1.9ms preprocess, 7.4ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.3ms
+Speed: 2.0ms preprocess, 7.3ms inference, 394.2ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.2ms
+Speed: 3.2ms preprocess, 7.2ms inference, 1.2ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.0ms
+Speed: 2.6ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.9ms
+Speed: 3.0ms preprocess, 6.9ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.7ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 7.1ms
+Speed: 2.2ms preprocess, 7.1ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.7ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 2.2ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.6ms
+Speed: 2.3ms preprocess, 6.6ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.6ms
+Speed: 2.2ms preprocess, 6.6ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 2.2ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.9ms
+Speed: 2.3ms preprocess, 6.9ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.6ms
+Speed: 2.1ms preprocess, 6.6ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 2.6ms preprocess, 6.7ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 7.4ms
+Speed: 2.2ms preprocess, 7.4ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.4ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 2.2ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.5ms
+Speed: 2.1ms preprocess, 6.5ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 2.2ms preprocess, 6.7ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 2.2ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 2.3ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 7.0ms
+Speed: 2.4ms preprocess, 7.0ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 2.2ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.9ms
+Speed: 2.3ms preprocess, 6.9ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.9ms
+Speed: 2.3ms preprocess, 6.9ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.3ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.9ms
+Speed: 2.3ms preprocess, 6.9ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.2ms preprocess, 6.8ms inference, 1.2ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 2.2ms preprocess, 6.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.0ms
+Speed: 2.2ms preprocess, 7.0ms inference, 1.2ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.1ms
+Speed: 2.2ms preprocess, 7.1ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.0ms
+Speed: 2.3ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 2.7ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.4ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 2.0ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.9ms
+Speed: 2.4ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.7ms
+Speed: 2.0ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.9ms
+Speed: 3.0ms preprocess, 7.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 3 guns, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.3ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 3 guns, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.0ms
+Speed: 1.8ms preprocess, 7.0ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 2.0ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.7ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.6ms
+Speed: 1.9ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.2ms
+Speed: 1.9ms preprocess, 7.2ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 11.8ms
+Speed: 3.1ms preprocess, 11.8ms inference, 1.2ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 3 guns, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 3 guns, 7.0ms
+Speed: 1.9ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 3 guns, 6.9ms
+Speed: 2.0ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 3 guns, 10.4ms
+Speed: 3.2ms preprocess, 10.4ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 3 guns, 7.0ms
+Speed: 1.9ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 9.2ms
+Speed: 3.9ms preprocess, 9.2ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.0ms
+Speed: 1.9ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 2.1ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 2.1ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 2.0ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.9ms
+Speed: 1.8ms preprocess, 6.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.4ms
+Speed: 2.1ms preprocess, 7.4ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.9ms
+Speed: 1.9ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 2.0ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.0ms
+Speed: 1.9ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.3ms
+Speed: 1.9ms preprocess, 7.3ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.9ms
+Speed: 2.1ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.1ms
+Speed: 2.0ms preprocess, 7.1ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.9ms
+Speed: 1.9ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 7.0ms
+Speed: 2.0ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.0ms
+Speed: 2.0ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.9ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.9ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 2.0ms preprocess, 6.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.8ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.8ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.9ms
+Speed: 1.8ms preprocess, 6.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 7.0ms
+Speed: 1.8ms preprocess, 7.0ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.0ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.7ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 3.0ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.8ms
+Speed: 2.9ms preprocess, 7.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 9.7ms
+Speed: 3.5ms preprocess, 9.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.6ms
+Speed: 1.9ms preprocess, 6.6ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 12.0ms
+Speed: 3.0ms preprocess, 12.0ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 0.6ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.0ms
+Speed: 1.9ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.0ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.8ms preprocess, 6.9ms inference, 1.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.1ms
+Speed: 1.8ms preprocess, 7.1ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.0ms
+Speed: 2.0ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.0ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.9ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 2.4ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 2.1ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.0ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 2.0ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.4ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 2.1ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 2.0ms preprocess, 6.7ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 2.1ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.2ms
+Speed: 2.6ms preprocess, 7.2ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 2.0ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.0ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.9ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.9ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 3.2ms preprocess, 6.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.0ms
+Speed: 2.5ms preprocess, 7.0ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.9ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.8ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.0ms
+Speed: 2.0ms preprocess, 7.0ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.9ms preprocess, 6.9ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.3ms
+Speed: 1.9ms preprocess, 7.3ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.9ms preprocess, 6.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.1ms
+Speed: 1.8ms preprocess, 7.1ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.8ms preprocess, 6.8ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 1.9ms preprocess, 6.8ms inference, 1.1ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 2.0ms preprocess, 6.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.9ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.9ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.9ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.2ms
+Speed: 1.7ms preprocess, 6.2ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.2ms
+Speed: 1.7ms preprocess, 6.2ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.7ms preprocess, 6.7ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 2 guns, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.9ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 2.0ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 2.3ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.8ms
+Speed: 2.5ms preprocess, 6.8ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 2.2ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.8ms preprocess, 6.7ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.9ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.9ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.9ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 2.1ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.8ms preprocess, 6.6ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.9ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 7.3ms
+Speed: 3.2ms preprocess, 7.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.7ms
+Speed: 1.7ms preprocess, 6.7ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 11.4ms
+Speed: 3.0ms preprocess, 11.4ms inference, 1.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 2.4ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 2.4ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.6ms
+Speed: 1.7ms preprocess, 6.6ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.2ms
+Speed: 1.7ms preprocess, 6.2ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.2ms
+Speed: 1.7ms preprocess, 6.2ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 7.5ms
+Speed: 2.9ms preprocess, 7.5ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 (no detections), 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.5ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.8ms preprocess, 6.3ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.8ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.9ms preprocess, 6.4ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.8ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.3ms
+Speed: 1.7ms preprocess, 6.3ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 9.0ms
+Speed: 3.0ms preprocess, 9.0ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.9ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.4ms
+Speed: 1.7ms preprocess, 6.4ms inference, 0.9ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.5ms
+Speed: 1.7ms preprocess, 6.5ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)
+
+0: 448x768 1 gun, 6.9ms
+Speed: 1.7ms preprocess, 6.9ms inference, 1.0ms postprocess per image at shape (1, 3, 448, 768)

@@ -15,6 +15,6 @@ EXPOSE 36801
 
 # ENTRYPOINT 
 
-# ENTRYPOINT ["streamlit","run"]  #     streamlit run streamlit-app.py --server.port
+# ENTRYPOINT ["streamlit","run"]  #     streamlit run streamlit-app.py --server.port 36800
 
 # CMD ["streamlit-app.py", "--server.port", "36800"]

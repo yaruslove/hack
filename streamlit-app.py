@@ -27,7 +27,8 @@ def image_input(confidence, source_img):
 		
 	# !!!!!!!!!!!! Здесь нужна наша модель для картинки
 	
-	model = YOLO('models/yolov8n.pt')
+	weight_model='/hack/yolo_8m_yaroslav.pt'
+	model = YOLO(weight_model) # 'models/yolov8n.pt'
 	
 	with col2:
 		res = model.predict(uploaded_image,	conf=confidence)
@@ -45,7 +46,7 @@ def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=N
 	image = cv2.resize(image, (720, int(720*(9/16))))
 
 	if is_display_tracking:
-		res = model.track(image, conf=conf, persist=True, tracker=tracker)
+		res = model.track(image, conf=0.45, persist=True, tracker=tracker)
 	else:
 		res = model.predict(image, conf=conf)
 
@@ -73,10 +74,17 @@ def video_input(conf):
 		st.sidebar.text('Исходное видео')
 		st.sidebar.video(demo_bytes)
 	else:
-		tffile.write(uploaded_video.read())
-		dem_vid = open(tffile.name, 'rb')
-		demo_bytes = dem_vid.read()
+		print("Uploaded")
+		# tffile.write(uploaded_video.read())
 		
+		src_file = os.path.join("/hack/saved_data/",uploaded_video.name)
+		with open(src_file,"wb") as f:
+			f.write(uploaded_video.getbuffer())
+
+		# dem_vid = open(tffile.name, 'rb')
+		dem_vid = open(src_file, 'rb')
+
+		demo_bytes = dem_vid.read()
 		st.sidebar.text('Исходное видео')
 		st.sidebar.video(demo_bytes)
 	
@@ -84,23 +92,26 @@ def video_input(conf):
 	# !!!!!!!!!!!! Здесь нужна наша модель для видео
 	
 	# Иницилизация модели
-	weight_model='models/yolov8n.pt'
+	# weight_model='models/yolov8n.pt'
+	weight_model='/hack/yolo_8m_yaroslav.pt'
+
 	inf_video = Inference_video(weight_model)
 
 	# кнопка Запустить
 	if st.sidebar.button("Запустить детекцию"):
 		try:
-			vid_cap = cv2.VideoCapture(tffile.name)
+			# vid_cap = cv2.VideoCapture(tffile.name)
 			
-			src=tffile.name # путь входного видео
-			print(f"tffile.name {tffile.name}")
+			# src=tffile.name # путь входного видео
+			print(f"src_file {src_file}")
 
 			# не пишет у меня в папку /hack/saved_data/, разбираться нет смысла, надо на сервере пробовать
-			dst=os.path.join(os.getcwd(), f"{get_id_hash(10)}.mp4") # путь выходного видео
+			# dst=os.path.join(os.getcwd(), f"{get_id_hash(10)}.mp4") # путь выходного видео
+			dst=os.path.join("/hack/saved_data", f"dst_{get_id_hash(10)}.mp4") # путь выходного видео
 			print(f"путь dst {dst}")
 			
 			with st.spinner('Идет работа модели с видеофайлом...'):
-				inf_video.inference_video(src, dst)
+				inf_video.inference_video(src_file, dst)
 			st.success('Готово!')
 			
 						
@@ -111,11 +122,9 @@ def video_input(conf):
 		col1, col2, col3 = st.columns((2, 10, 2))
 		with col2:
 			st.video(dst)
-			
-		
+	
 	return
-	
-	
+
 
 def rtsp_stream(conf):
 

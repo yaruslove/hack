@@ -40,9 +40,11 @@ class Inference_video:
 
         cap = cv2.VideoCapture(path_video)
 
+
         #param in video
         size = video_resolution(path_video)
-        fps = count_fps (path_video) 
+        fps = count_fps (path_video)
+
 
         result = cv2.VideoWriter(out_video_path,  
                                  cv2.VideoWriter_fourcc(*'H264'), 
@@ -55,7 +57,7 @@ class Inference_video:
 
             if success:
                 # Run YOLOv8 inference on the frame
-                results = self.model(frame)
+                results = self.model(frame, conf = 0.45)
 
                 # Visualize the results on the frame
                 annotated_frame = results[0].plot(line_width = 1, font_size = 0.5)
@@ -68,6 +70,7 @@ class Inference_video:
                     break
             else:
                 # Break the loop if the end of the video is reached
+                print(f"video doesnt readed")
                 break
 
 
