@@ -3,6 +3,9 @@ import cv2
 import streamlit as st
 import PIL
 from ultralytics import YOLO
+import os
+
+from utiils_cv.inference_video import Inference_video, get_id_hash
 
 
 def image_input(confidence):
@@ -83,23 +86,38 @@ def video_input(conf):
 
 	# !!!!!!!!!!!! Здесь нужна наша модель для видео
 	
-	model = YOLO('models/yolov8n.pt')
+	# model = YOLO('models/yolo_8m_yaroslav.pt')
+
+	# Иницилизация модели
+	weight_model='models/yolo_8m_yaroslav.pt'
+	inf_video = Inference_video(weight_model)
+
 	# кнопка Запустить
 	if st.sidebar.button("Запустить детекцию"):
 		try:
 			vid_cap = cv2.VideoCapture(tffile.name)
 			
 			# для выравнивания видео по центру нужны колонки
-			col1, col2, col3 = st.columns((2, 10, 2))
-			with col2:
-				st_frame = st.empty()
-				while (vid_cap.isOpened()):
-					success, image = vid_cap.read()
-					if success:							
-							_display_detected_frames(conf,model,st_frame,image)
-					else:
-						vid_cap.release()
-						break
+			src=tffile.name # путь входного видео
+			print(f"tffile.name {tffile.name}")
+			dst=os.path.join("/hack/saved_data/", f"{get_id_hash(10)}.mp4") # путь выходного видео
+			inf_video.inference_video(src, dst)
+			print(f"dst {dst}")
+			st.video(dst)
+
+
+			# inf_video.inference_video(src, dst)
+
+			# col1, col2, col3 = st.columns((2, 10, 2))
+			# with col2:
+			# 	st_frame = st.empty()
+			# 	while (vid_cap.isOpened()):
+			# 		success, image = vid_cap.read()
+			# 		if success:							
+			# 				_display_detected_frames(conf,model,st_frame,image)
+			# 		else:
+			# 			vid_cap.release()
+			# 			break
 				
 
 						

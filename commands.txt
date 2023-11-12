@@ -4,9 +4,9 @@ docker build -t streamlit_gun:yaroslav .
 
 # docker run
 # with gpu
-docker run -p 36800:36800 -p 36801:36801 --gpus all -it -v /home/hack/hack:/app_demo --name streamlit_gun_yaroslav aac8f705bd16
+docker run -p 36800:36800 -p 36801:36801 --gpus all -d -it -v /home/hack_cv:/hack --name streamlit_gun_yaroslav d6779f3e7f3f
 
 # without gpu
-docker run -p 36800:36800 -p 36801:36801 -it -v /home/hack/hack:/app_demo --name streamlit_gun_yaroslav aac8f705bd16
+docker run -p 36800:36800 -p 36801:36801 -it -v /home/hack_cv:/hack --name streamlit_gun_yaroslav aac8f705bd16
 
 

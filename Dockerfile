@@ -1,17 +1,20 @@
-FROM python:3.9.18
+# FROM python:3.9.18
+FROM nvcr.io/nvidia/pytorch:23.10-py3
 
-WORKDIR /app
-COPY requirements.txt ./requirements.txt
+# WORKDIR /hack/app
+# COPY requirements.txt ./requirements.txt
 
-RUN apt update && apt install -y --no-install-recommends libgl1
-RUN pip3 install -r requirements.txt
+# RUN apt update && apt install -y --no-install-recommends libgl1
+# RUN pip3 install -r requirements.txt
 
-COPY . /app
+# COPY . /app
 
 EXPOSE 8501
 EXPOSE 35800
 EXPOSE 36801
 
-ENTRYPOINT ["streamlit","run"]
+# ENTRYPOINT 
 
-CMD ["streamlit-app.py", "--server.port", "36800"]
+# ENTRYPOINT ["streamlit","run"]  #     streamlit run streamlit-app.py --server.port
+
+# CMD ["streamlit-app.py", "--server.port", "36800"]
