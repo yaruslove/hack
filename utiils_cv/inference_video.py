@@ -45,7 +45,7 @@ class Inference_video:
         fps = count_fps (path_video) 
 
         result = cv2.VideoWriter(out_video_path,  
-                                 cv2.VideoWriter_fourcc(*'MJPG'), 
+                                 cv2.VideoWriter_fourcc(*'H264'), 
                                  fps, size) 
 
         # Loop through the video frames
@@ -61,7 +61,7 @@ class Inference_video:
                 annotated_frame = results[0].plot(line_width = 1, font_size = 0.5)
 
                 ## write video
-                result.write(annotated_frame) 
+                result.write(annotated_frame)
 
                 # Break the loop if 'q' is pressed
                 if cv2.waitKey(1) & 0xFF == ord("q"):

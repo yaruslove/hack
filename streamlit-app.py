@@ -7,11 +7,9 @@ import os
 
 from utiils_cv.inference_video import Inference_video, get_id_hash
 
-
-def image_input(confidence):
-	
-	source_img = st.sidebar.file_uploader("Загрузите картинку", type=['png', 'jpeg', 'jpg'])
-	
+@st.cache_data
+def image_input(confidence, source_img):
+		
 	DEFAULT_image = '1.jpg'
 
 	if not source_img:
@@ -37,7 +35,7 @@ def image_input(confidence):
 		res_plotted = res[0].plot()[:, :, ::-1]
 		st.image(res_plotted, caption='Результат модели',
 				 use_column_width=True)		
-	
+
 	return
 
 
@@ -66,9 +64,8 @@ def video_input(conf):
 	DEFAULT_video = 'demo.mp4'
 	tffile = tempfile.NamedTemporaryFile(suffix = '.mp4', delete=False)
 	
-	## отображение видео
+	## отображение исходного видео слева
 	if not uploaded_video:
-		vid = cv2.VideoCapture(DEFAULT_video)
 		tffile.name = DEFAULT_video
 		dem_vid = open(tffile.name, 'rb')
 		demo_bytes = dem_vid.read()
@@ -86,10 +83,8 @@ def video_input(conf):
 
 	# !!!!!!!!!!!! Здесь нужна наша модель для видео
 	
-	# model = YOLO('models/yolo_8m_yaroslav.pt')
-
 	# Иницилизация модели
-	weight_model='models/yolo_8m_yaroslav.pt'
+	weight_model='models/yolov8n.pt'
 	inf_video = Inference_video(weight_model)
 
 	# кнопка Запустить
@@ -97,45 +92,26 @@ def video_input(conf):
 		try:
 			vid_cap = cv2.VideoCapture(tffile.name)
 			
-			# для выравнивания видео по центру нужны колонки
 			src=tffile.name # путь входного видео
 			print(f"tffile.name {tffile.name}")
-			dst=os.path.join("/hack/saved_data/", f"{get_id_hash(10)}.mp4") # путь выходного видео
-			inf_video.inference_video(src, dst)
-			print(f"dst {dst}")
-			st.video(dst)
 
-
-			# inf_video.inference_video(src, dst)
-
-			# col1, col2, col3 = st.columns((2, 10, 2))
-			# with col2:
-			# 	st_frame = st.empty()
-			# 	while (vid_cap.isOpened()):
-			# 		success, image = vid_cap.read()
-			# 		if success:							
-			# 				_display_detected_frames(conf,model,st_frame,image)
-			# 		else:
-			# 			vid_cap.release()
-			# 			break
-				
-
+			# не пишет у меня в папку /hack/saved_data/, разбираться нет смысла, надо на сервере пробовать
+			dst=os.path.join(os.getcwd(), f"{get_id_hash(10)}.mp4") # путь выходного видео
+			print(f"путь dst {dst}")
+			
+			with st.spinner('Идет работа модели с видеофайлом...'):
+				inf_video.inference_video(src, dst)
+			st.success('Готово!')
+			
 						
 		except Exception as e:
 			st.sidebar.error("Ошибка загрузки видео: " + str(e))
 			
-		kpi1, kpi2, kpi3 = st.columns(3)
-		with kpi1:
-			st.markdown('**Frame Rate**')
-			kpi1_text = st.markdown('0')
+		# для выравнивания видео по центру нужны колонки
+		col1, col2, col3 = st.columns((2, 10, 2))
+		with col2:
+			st.video(dst)
 			
-		with kpi2:
-			st.markdown('**Всего объектов**')
-			kpi1_text = st.markdown('0')
-			
-		with kpi3:
-			st.markdown('**Разрешение**')
-			kpi1_text = st.markdown('0')
 		
 	return
 	
@@ -191,18 +167,16 @@ def main():
 	## Чек боксы
 #	save_img = st.sidebar.checkbox('Save Video')
 #	enable_GPU = st.sidebar.checkbox('enable_GPU')
-	
-#	st.sidebar.markdown('---')
 
 	if input_option == 'Картинка':
-		image_input(confidence)
+		source_img = st.sidebar.file_uploader("Загрузите картинку", type=['png', 'jpeg', 'jpg'])
+		image_input(confidence, source_img)
 	
 	elif input_option == 'Видео':
 		video_input(confidence)
 		
 	elif input_option == 'Видеопоток (rtsp)':
-		rtsp_stream(confidence)
-	
+		rtsp_stream(confidence)	
 
 	
 	st.sidebar.markdown('---')
